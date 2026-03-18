@@ -48,7 +48,7 @@ if _env_path.exists():
 # ---------------------------------------------------------------------------
 from brand_constants import BRAND, COLOURS, CAMPAIGN_THEMES, TARGET_AUDIENCE
 from ad_copy_generator import generate_ad_copy, generate_variations
-from audience_targeting import AUDIENCE_SEGMENTS, get_budget_allocation
+from audience_targeting import AUDIENCE_SEGMENTS, estimate_daily_budget
 from campaign_calendar import get_active_campaigns, export_calendar_markdown
 from creative_briefs import generate_all_briefs, export_brief_markdown
 from creative_matrix import get_best_variants, generate_full_matrix
@@ -90,10 +90,10 @@ def step_1_verify_api() -> str:
                 print(f"       - {m}")
             if len(gemini_models) > 5:
                 print(f"       ... and {len(gemini_models) - 5} more")
-        elif resp.status_code == 400 or resp.status_code == 403:
-            print(f"  [ERROR] API key rejected (HTTP {resp.status_code}).")
+        elif resp.status_code in (400, 403):
+            print(f"  [WARN] API key rejected (HTTP {resp.status_code}).")
             print("  Check your key at: https://aistudio.google.com/apikey")
-            sys.exit(1)
+            print("  Continuing with non-API steps (ad copy, briefs, calendar)...")
         else:
             print(f"  [WARN] Unexpected status {resp.status_code}. Continuing anyway...")
     except requests.exceptions.RequestException as exc:
@@ -109,10 +109,11 @@ def step_2_ad_copy() -> None:
 
     for theme in CAMPAIGN_THEMES:
         theme_id = theme["id"]
-        variations = generate_variations(theme_id=theme_id, count=2)
+        variations = generate_variations(theme_id=theme_id, num_variations=2)
         print(f"  Theme: {theme['name']}")
         for v in variations:
-            print(f"    [{v['framework'].upper()}] {v['primary_text'][:80]}...")
+            fw = v['metadata']['framework'].upper()
+            print(f"    [{fw}] {v['primary_text'][:80]}...")
         print()
 
     print(f"  [OK] Generated copy samples for {len(CAMPAIGN_THEMES)} campaign themes.")
@@ -128,7 +129,7 @@ def step_3_briefs() -> None:
     briefs = generate_all_briefs()
     for brief in briefs:
         md = export_brief_markdown(brief)
-        filepath = briefs_dir / f"brief_{brief.theme_id}.md"
+        filepath = briefs_dir / f"brief_{brief.campaign_theme['id']}.md"
         filepath.write_text(md)
         print(f"  [OK] {filepath}")
 
