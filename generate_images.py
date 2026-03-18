@@ -41,6 +41,17 @@ from pathlib import Path
 
 import requests
 
+# Load .env file if present (keeps API keys out of shell history)
+_env_path = Path(__file__).resolve().parent / ".env"
+if _env_path.exists():
+    with open(_env_path) as _f:
+        for _line in _f:
+            _line = _line.strip()
+            if _line and not _line.startswith("#") and "=" in _line:
+                _key, _, _val = _line.partition("=")
+                _val = _val.strip().strip("\"'")
+                os.environ.setdefault(_key.strip(), _val)
+
 from brand_constants import BRAND, COLOURS, FONTS, AD_FORMATS
 from creative_matrix import (
     CreativeVariant,
