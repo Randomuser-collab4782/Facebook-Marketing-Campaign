@@ -17,13 +17,26 @@ BRAND = {
     "website": "https://tandnibeducation.com",
     "tagline": "Ace Your IB With AI-Powered Guidance",
     "short_description": (
-        "Expert IB tuition and AI-assisted Internal Assessment support "
-        "that helps students achieve top grades while maintaining academic integrity."
+        "Expert IB tuition across all subjects — with AI-powered Internal "
+        "Assessment support as our speciality. From general exam prep to "
+        "IA mastery, we help students achieve top grades."
     ),
     "mission": (
-        "To empower IB students worldwide with personalised tutoring and "
-        "AI-driven tools that simplify Internal Assessments across all subjects."
+        "To empower IB students worldwide with personalised tutoring across "
+        "every subject, with industry-leading AI-driven tools that simplify "
+        "Internal Assessments."
     ),
+    "services": {
+        "general_tuition": (
+            "1-on-1 tutoring for all IB Diploma subjects — Maths, Sciences, "
+            "Humanities, Languages, and more. Exam prep, coursework help, "
+            "and concept mastery."
+        ),
+        "speciality_ia": (
+            "AI-powered Internal Assessment support — topic selection, "
+            "structure, analysis, and refinement. Our flagship offering."
+        ),
+    },
     "voice": {
         "tone": "Confident, supportive, and approachable",
         "formality": "Semi-formal — academic credibility with a friendly edge",
@@ -118,6 +131,15 @@ SELLING_POINTS = [
             "2+ points on their IA scores across all subjects."
         ),
         "icon": "trending-up",
+    },
+    {
+        "headline": "General IB Tuition",
+        "detail": (
+            "Beyond IAs — get 1-on-1 tutoring for exams, coursework, and "
+            "concept mastery across every IB Diploma subject. Maths, Sciences, "
+            "Humanities, Languages, and more."
+        ),
+        "icon": "book-open-check",
     },
 ]
 
@@ -291,6 +313,17 @@ CAMPAIGN_THEMES = [
         "angle": "Urgency-driven ads timed around IB assessment deadlines.",
         "cta": "Book a Session Today",
         "best_for": ["portrait_story", "square_feed"],
+    },
+    {
+        "id": "general_tuition",
+        "name": "General IB Tuition",
+        "hook": "Expert IB tutors for every subject.",
+        "angle": (
+            "Promote broad 1-on-1 IB tutoring — exams, coursework, concept "
+            "mastery — with IA support as the standout speciality."
+        ),
+        "cta": "Book a Session Today",
+        "best_for": ["square_feed", "carousel_card", "landscape_feed"],
     },
 ]
 

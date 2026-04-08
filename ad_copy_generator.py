@@ -361,6 +361,79 @@ _COPY_TEMPLATES = {
         "headline": "Almost Fully Booked",
         "description": "Grab the last slots now",
     },
+
+    # ----- GENERAL TUITION -----
+    ("general_tuition", "aida", "primary"): {
+        "primary_text": (
+            "Struggling with IB? Get 1-on-1 tutoring from expert IB teachers "
+            "across every subject — Maths, Sciences, English, Economics, and more. "
+            "Plus our AI-powered IA support to give you the edge."
+        ),
+        "headline": "Expert IB Tutors, All Subjects",
+        "description": "1-on-1 IB tuition online",
+    },
+    ("general_tuition", "aida", "secondary"): {
+        "primary_text": (
+            "Give your child the IB support they need — expert 1-on-1 tutoring "
+            "in every subject, from Maths to Languages. Plus specialised AI tools "
+            "for their Internal Assessments."
+        ),
+        "headline": "All-Subject IB Tuition",
+        "description": "Every subject, one platform",
+    },
+    ("general_tuition", "pas", "primary"): {
+        "primary_text": (
+            "IB is tough — juggling 6 subjects, IAs, and exams all at once. "
+            "Our expert tutors help you master every subject, and our AI tools "
+            "make your IAs stress-free."
+        ),
+        "headline": "IB Overwhelming? We Help",
+        "description": "All subjects + IA support",
+    },
+    ("general_tuition", "pas", "secondary"): {
+        "primary_text": (
+            "Watching your child struggle with the IB workload? "
+            "Our tutors cover every subject — and our AI-powered IA support "
+            "tackles the hardest part of the Diploma."
+        ),
+        "headline": "End Their IB Struggle",
+        "description": "Tutoring parents trust",
+    },
+    ("general_tuition", "bab", "primary"): {
+        "primary_text": (
+            "Before: falling behind in multiple subjects. "
+            "After: confident across the board with top IA scores. "
+            "T&N's expert tutors and AI tools cover everything."
+        ),
+        "headline": "Master Every IB Subject",
+        "description": "Tuition + AI IA support",
+    },
+    ("general_tuition", "bab", "secondary"): {
+        "primary_text": (
+            "Before: your child is stressed across multiple IB subjects. "
+            "After: they're thriving with personalised tutor support and "
+            "AI-guided IA help. T&N makes the IB manageable."
+        ),
+        "headline": "Watch Them Thrive in IB",
+        "description": "Full IB support, one place",
+    },
+    ("general_tuition", "fomo", "primary"): {
+        "primary_text": (
+            "Top IB students don't do it alone. They get expert tutoring "
+            "across all subjects and AI-powered IA support. Spots are limited — "
+            "join them now."
+        ),
+        "headline": "Top Students Use T&N",
+        "description": "Limited tutor spots left",
+    },
+    ("general_tuition", "fomo", "secondary"): {
+        "primary_text": (
+            "Other IB families already have tutoring locked in for every subject. "
+            "Our all-subject tuition with AI IA support is filling up fast."
+        ),
+        "headline": "Families Are Booking Fast",
+        "description": "Secure all-subject support",
+    },
 }
 
 # Frameworks list for iteration

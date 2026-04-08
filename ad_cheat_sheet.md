@@ -178,6 +178,46 @@ Replace `{subject}` with: Mathematics AA, Physics, Economics, Chemistry, Biology
 
 ---
 
+### CAMPAIGN 6: GENERAL IB TUITION (Broad reach — all subjects)
+
+**Ad 6A — Student-focused (AIDA)**
+- **Primary text:** Struggling with IB? Get 1-on-1 tutoring from expert IB teachers across every subject — Maths, Sciences, English, Economics, and more. Plus our AI-powered IA support to give you the edge.
+- **Headline:** Expert IB Tutors, All Subjects
+- **Description:** 1-on-1 IB tuition online
+- **CTA:** Learn More
+
+**Ad 6B — Parent-focused (AIDA)**
+- **Primary text:** Give your child the IB support they need — expert 1-on-1 tutoring in every subject, from Maths to Languages. Plus specialised AI tools for their Internal Assessments.
+- **Headline:** All-Subject IB Tuition
+- **Description:** Every subject, one platform
+- **CTA:** Learn More
+
+**Ad 6C — Student-focused (PAS)**
+- **Primary text:** IB is tough — juggling 6 subjects, IAs, and exams all at once. Our expert tutors help you master every subject, and our AI tools make your IAs stress-free.
+- **Headline:** IB Overwhelming? We Help
+- **Description:** All subjects + IA support
+- **CTA:** Get Started
+
+**Ad 6D — Parent-focused (BAB)**
+- **Primary text:** Before: your child is stressed across multiple IB subjects. After: they're thriving with personalised tutor support and AI-guided IA help. T&N makes the IB manageable.
+- **Headline:** Watch Them Thrive in IB
+- **Description:** Full IB support, one place
+- **CTA:** Learn More
+
+**Ad 6E — Student-focused (FOMO)**
+- **Primary text:** Top IB students don't do it alone. They get expert tutoring across all subjects and AI-powered IA support. Spots are limited — join them now.
+- **Headline:** Top Students Use T&N
+- **Description:** Limited tutor spots left
+- **CTA:** Book Now
+
+**Ad 6F — Parent-focused (FOMO)**
+- **Primary text:** Other IB families already have tutoring locked in for every subject. Our all-subject tuition with AI IA support is filling up fast.
+- **Headline:** Families Are Booking Fast
+- **Description:** Secure all-subject support
+- **CTA:** Book Now
+
+---
+
 ## TARGETING CHEAT SHEET
 
 ### Audience 1: IB Students (Primary)
@@ -202,13 +242,17 @@ Replace `{subject}` with: Mathematics AA, Physics, Economics, Chemistry, Biology
 ## KEYWORDS & HASHTAGS FOR ORGANIC POSTS
 
 ### Primary Keywords (Use in ad text & captions)
+- IB tuition online
+- IB tutor online
+- IB tutoring all subjects
+- online IB tuition
+- IB exam prep
 - IB Internal Assessment help
 - IB IA support
-- IB tuition online
 - IB AI tools
 - IB score improvement
-- IB tutor
 - International Baccalaureate help
+- IB Maths tutor / IB Physics tutor / IB Economics tutor
 
 ### Hashtags (Use on Instagram organic posts)
 ```
@@ -221,21 +265,30 @@ Replace `{subject}` with: Mathematics AA, Physics, Economics, Chemistry, Biology
 
 ### SEO-Optimised Landing Page Keywords
 Use these in your website copy and Meta ad descriptions:
-1. "IB Internal Assessment help online"
-2. "AI-powered IB tutoring"
-3. "IB IA topic ideas"
-4. "IB IA structure guide"
-5. "best IB tutor online"
-6. "IB score improvement tutoring"
-7. "ethical AI for IB students"
-8. "IB IA deadline help"
-9. "IB Mathematics IA help"
-10. "IB Physics IA support"
-11. "IB Economics IA guide"
-12. "online IB tuition UK"
-13. "IB tutor Singapore"
-14. "IB tutor Dubai"
-15. "IB tutor Hong Kong"
+
+**General Tuition Keywords:**
+1. "online IB tuition"
+2. "best IB tutor online"
+3. "IB Diploma tutoring"
+4. "IB Maths tutor online"
+5. "IB Physics tutor online"
+6. "IB Economics tutor"
+7. "IB English tutor"
+8. "IB exam preparation"
+9. "IB tuition UK" / "IB tutor Singapore" / "IB tutor Dubai" / "IB tutor Hong Kong"
+10. "1-on-1 IB tutoring"
+
+**IA-Specific Keywords (your speciality):**
+11. "IB Internal Assessment help online"
+12. "AI-powered IB IA support"
+13. "IB IA topic ideas"
+14. "IB IA structure guide"
+15. "IB score improvement tutoring"
+16. "ethical AI for IB students"
+17. "IB IA deadline help"
+18. "IB Mathematics IA help"
+19. "IB Physics IA support"
+20. "IB Economics IA guide"
 
 ---
 
@@ -265,20 +318,52 @@ Use these in your website copy and Meta ad descriptions:
 - Clean desk with notebook and laptop
 - Before/after score comparison graphic
 - Timer/clock visual for deadline urgency
+- Tutor and student in 1-on-1 session (for general tuition ads)
+- Multiple subject icons/books (for all-subjects messaging)
 
 ---
 
-## QUICK-START: YOUR FIRST 3 ADS
+## CANVA AI PROMPTS — Copy-Paste Into Magic Design
 
-Run these 3 ads simultaneously to test what works:
+### General Tuition Ads:
+> `Professional Facebook ad for online IB tutoring, navy blue background (#1E3A5F). Headline: "Expert IB Tutors, All Subjects". Subtext: "1-on-1 tutoring for Maths, Sciences, English, Economics and more". Amber call-to-action button. Clean modern education design.`
+
+> `Warm friendly Facebook ad for IB tuition, teal (#2E86AB) accents on white background. Shows multiple subject icons. Headline: "All-Subject IB Tuition". Subtext: "Every subject, one platform". Professional but approachable.`
+
+> `Parent-focused Facebook ad, premium dark navy (#0F1B2D) background. Headline: "Watch Them Thrive in IB". Subtext: "Full IB support in one place — tutoring + AI-powered IA help". Gold/amber button. Elegant and trustworthy.`
+
+### IA-Specific Ads (your speciality):
+> `Facebook ad, navy blue background, clean modern design. Headline: "Stuck on Your IA? We Fix That". Subtext: "AI-powered IB tutoring that takes you from blank page to top marks". Amber button saying "Get Started". Student studying at laptop.`
+
+> `Professional Facebook ad, dark blue premium look. Headline: "+2 Points on Their IA Score". Subtext: "Expert IB tutoring with proven results". Teal and amber accents. Parent and teen looking at screen.`
+
+> `Urgent bold Facebook ad, red and amber tones. Headline: "IA Deadline? Act Now". Subtext: "Same-week sessions available". Timer or clock imagery. Bold white text.`
+
+> `Clean white Facebook ad, professional education brand. Headline: "Use AI the IB-Approved Way". Subtext: "100% IB-compliant AI tools". Shield or checkmark icon. Navy and teal colours.`
+
+### Subject-Specific Ads:
+> `Facebook ad for IB Maths tutoring, navy background with teal accents. Headline: "Ace Your Maths AA IA". Subtext: "Subject-specialist tutors + AI tools". Math-related imagery. Amber CTA button.`
+
+> `Facebook ad for IB Physics tutoring, dark premium design. Headline: "Expert IB Physics Tutor". Subtext: "1-on-1 sessions for exams and IA". Science imagery. Professional education brand.`
+
+---
+
+## QUICK-START: YOUR FIRST 4 ADS
+
+Run these 4 ads simultaneously to test what works:
 
 | Ad | Campaign | Target    | Copy Set | Budget  |
 |----|----------|-----------|----------|---------|
-| 1  | Traffic  | Students 15-19 | Ad 1A (IA Kickstart AIDA) | $5/day |
-| 2  | Traffic  | Parents 35-55  | Ad 2B (Score Boost AIDA)  | $5/day |
-| 3  | Traffic  | Students 15-19 | Ad 4A (Deadline Crunch)   | $5/day |
+| 1  | Traffic  | Students 15-19 | Ad 6A (General Tuition AIDA) | $5/day |
+| 2  | Traffic  | Parents 35-55  | Ad 6B (General Tuition Parents) | $5/day |
+| 3  | Traffic  | Students 15-19 | Ad 1A (IA Kickstart AIDA) | $5/day |
+| 4  | Traffic  | Parents 35-55  | Ad 2B (Score Boost AIDA)  | $5/day |
 
-Run all 3 for 5-7 days. The one with the **lowest cost-per-click** wins. Scale that one up to $15-20/day and pause the losers.
+**Strategy:** Ads 1-2 cast a wide net (all IB students/parents). Ads 3-4 focus on your IA speciality. Run all 4 for 5-7 days. The ones with the **lowest cost-per-click** win. Scale winners to $15-20/day and pause the losers.
+
+**Messaging rule of thumb:**
+- **General tuition** → use to attract a broad IB audience
+- **IA-specific** → use to convert and differentiate (this is your unique edge)
 
 ---
 
